@@ -1,0 +1,51 @@
+.annual{
+    color: hsl(223, 47%, 23%);
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.annual-wrap{
+    margin-left: 40px;
+}
+
+.change{
+ color: hsl(245, 75%, 52%);
+ font-size: 18px;
+ font-weight: 700;
+}
+
+.change:hover{
+    text-decoration: underline;
+}
+
+.inner-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: hsl(225, 100%, 98%);
+    width: 100%;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.icon{
+    width: 60px;
+}
+
+.price-wrap{
+    display: flex;
+    align-items: center;
+    padding: 0px 50px;
+    background-color: white;
+}
+
+.price{
+    font-size: 20px;
+    color: hsl(224, 23%, 55%);
+    margin-top: 5px;
+}
+
+.small-wrap{
+display: flex;
+}
