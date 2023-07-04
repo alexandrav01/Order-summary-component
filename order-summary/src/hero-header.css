@@ -2,5 +2,14 @@
     width: 100vh;
     border-top-right-radius: 30px;
     border-top-left-radius: 30px;
-    margin-top: 200px;
+    margin-top: 0px;
+}
+
+@media only screen and (min-width: 1200px){
+    .img{
+        width: 360px;
+        border-top-right-radius: 30px;
+        border-top-left-radius: 30px;
+        margin-top: 0px;
+    }
 }

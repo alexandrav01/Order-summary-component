@@ -49,3 +49,59 @@
 .small-wrap{
 display: flex;
 }
+
+
+@media only screen and (min-width:1200px) {
+    .annual{
+        color: hsl(223, 47%, 23%);
+        font-weight: 700;
+        font-size: 18px;
+    }
+    
+    .annual-wrap{
+        margin-left: 20px;
+    }
+    
+    .change{
+     color: hsl(245, 75%, 52%);
+     font-size: 14px;
+     font-weight: 700;
+    }
+    
+    .change:hover{
+        text-decoration: underline;
+    }
+    
+    .inner-wrap{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: hsl(225, 100%, 98%);
+        width: 100%;
+        padding: 20px;
+        border-radius: 20px;
+        margin-top: 20px;
+    }
+    
+    .icon{
+        width: 50px;
+    }
+    
+    .price-wrap{
+        display: flex;
+        align-items: center;
+        padding: 0px 30px;
+        background-color: white;
+        width: 300px;
+    }
+    
+    .price{
+        font-size: 18px;
+        color: hsl(224, 23%, 55%);
+        margin-top: 5px;
+    }
+    
+    .small-wrap{
+    display: flex;
+    }
+}
