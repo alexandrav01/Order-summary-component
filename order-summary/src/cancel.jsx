@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./payment.css";
 
-function Payment() {
+function Cancel () {
   const [modal, setModal] = useState(false);
 
   const toggleModal = () => {
@@ -11,14 +11,14 @@ function Payment() {
   return (
     <>
       <div className="button-wrap">
-        <button className="payment" onClick={toggleModal}>
-          Proceed to Payment
+        <button className="cancel" onClick={toggleModal}>
+          Cancel Order
         </button>
         {modal &&(
             <div className="modal">
           <div className="overlay" onClick={toggleModal}>
             <div className="modal-content">
-              <h3>Thank you for your purchase</h3>
+              <h3>We're sorry to see you go!</h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -28,10 +28,9 @@ function Payment() {
           </div>
         </div>
         )}
-
       </div>
     </>
   );
 }
 
-export default Payment;
+export default Cancel;
